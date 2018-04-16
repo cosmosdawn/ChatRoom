@@ -33,7 +33,7 @@ Chat.prototype.processCommand = function(command) {
 		var room = words.join(' ');
 		this.changeRoom(room);
 		break;
-		case 'nick':
+		case 'changeName':
 		words.shift();
 		var name = words.join(' ');
 		this.socket.emit('nameAttempt', name);

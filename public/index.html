@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<title>ChatRoom</title>
-	<link rel='stylesheet' href='./style/style.css'></link>
+	<meta charset="UTF-8">
+	<link rel='stylesheet' href='./style/style.css' />
 </head>
 <body>
 	<div id="content">
@@ -11,14 +12,14 @@
 		<div id="messages"></div>
 
 		<form id="send-form">
-			<input id="send-message" />
-			<input type="submit" value='Send' id="send-button" />
+			<input id="send-message" placeholder="在这里输入你想对我说的话吧.." />
+			<input type="submit" value='发送～' id="send-button" />
 
 			<div id="help">
 				Chat commands:
 				<ul>
-					<li>Change nickname: <code>/nick [username]</code></li>
-					<li>Join/create room: <code>/join [room name]</code></li>
+					<li>修改聊天昵称: <code>/changeName [username]</code></li>
+					<li>创建/加入 新房间: <code>/join [room name]</code></li>
 				</ul>
 			</div>
 		</form> 
