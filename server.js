@@ -63,10 +63,9 @@ var server = http.createServer(function(request, response) {
 });
 
 // 启动服务器的代码
-server.listen(3000, function() {
+server.listen(3030, function() {
     console.log('server listening on port 3000');
 });
-
 
 
 
